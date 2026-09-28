@@ -1,0 +1,16 @@
+{
+  "name": "grin-glow-whatsapp-agent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Config-driven WhatsApp enquiry, booking, and reminder agent for dental clinics.",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts/check-api.js",
+    "demo": "node scripts/demo-booking.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

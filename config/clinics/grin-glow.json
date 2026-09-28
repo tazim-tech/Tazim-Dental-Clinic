@@ -1,0 +1,109 @@
+{
+  "id": "grin-glow",
+  "name": "Grin & Glow Dental",
+  "tagline": "Chennai",
+  "timezone": "Asia/Kolkata",
+  "bookingPrefix": "GG",
+  "bookingWindowDays": 10,
+  "minLeadMinutes": 30,
+  "reminderLeadMinutes": 120,
+  "_note": "Pilot profile for Grin & Glow. Replace branch street addresses before go-live. Copy this file, change the id, and set CLINIC_ID to reuse the same agent for another clinic.",
+  "services": [
+    { "id": "checkup", "name": "Dental checkup", "minutes": 30 },
+    { "id": "cleaning", "name": "Cleaning & polish", "minutes": 45 },
+    { "id": "pain", "name": "Tooth pain visit", "minutes": 30 },
+    { "id": "whitening", "name": "Whitening consult", "minutes": 30 },
+    { "id": "braces", "name": "Braces consult", "minutes": 30 }
+  ],
+  "faqs": [
+    {
+      "id": "hours",
+      "menuTitle": "Opening hours",
+      "keywords": ["hour", "hours", "timing", "timings", "open", "close", "sunday", "closed"],
+      "a": "Monday to Saturday. Adyar and T. Nagar: 10:00–13:00 and 16:00–20:00. Anna Nagar: 10:00–18:00. Sundays are closed."
+    },
+    {
+      "id": "first-visit",
+      "menuTitle": "First visit",
+      "keywords": ["first visit", "new patient", "what to bring", "reports", "x-ray", "xray"],
+      "a": "Come 10 minutes early. Bring any old dental reports or X-rays, and a list of medicines you take. You can book the checkup on this chat."
+    },
+    {
+      "id": "fees",
+      "menuTitle": "Fees",
+      "keywords": ["fee", "fees", "price", "prices", "cost", "charge", "charges", "how much"],
+      "a": "The branch confirms the fee when you arrive. A checkup and a cleaning are priced separately. Ask the desk if you already have a treatment in mind."
+    },
+    {
+      "id": "emergency",
+      "menuTitle": "Tooth pain",
+      "keywords": ["pain", "emergency", "swelling", "bleed", "urgent", "toothache"],
+      "a": "For toothache, book a Tooth pain visit and take the earliest slot. If there is heavy bleeding, facial swelling, or a knock to the teeth, call the branch or go to urgent care. Don't wait on a chat slot for that."
+    },
+    {
+      "id": "kids",
+      "menuTitle": "Children",
+      "keywords": ["kid", "kids", "child", "children", "baby"],
+      "a": "Children are welcome. Book a Dental checkup and tell the dentist the child's age when you arrive."
+    },
+    {
+      "id": "braces",
+      "menuTitle": "Braces",
+      "keywords": ["brace", "braces", "aligner", "aligners", "ortho"],
+      "a": "Book a Braces consult at any branch. The dentist will say whether braces or aligners fit after looking in the chair."
+    },
+    {
+      "id": "whitening",
+      "menuTitle": "Whitening",
+      "keywords": ["whiten", "whitening", "bleach"],
+      "a": "Book a Whitening consult. The dentist checks your teeth first and explains what whitening can and cannot do."
+    },
+    {
+      "id": "cancel",
+      "menuTitle": "Cancel a visit",
+      "keywords": ["cancel", "reschedule", "postpone", "can't come", "cannot come"],
+      "a": "If you can't make a visit, message this chat and book a new slot. Give the branch a few hours' notice when you can, so the chair can go to someone else. Tell them the old booking ref."
+    },
+    {
+      "id": "root-canal",
+      "menuTitle": "Root canal",
+      "keywords": ["root canal", "rct", "nerve"],
+      "a": "Root canal treatment is decided after the dentist examines you. Book a Tooth pain visit or a Dental checkup, and bring any earlier X-ray."
+    },
+    {
+      "id": "implants",
+      "menuTitle": "Implants",
+      "keywords": ["implant", "implants"],
+      "a": "Implant treatment starts with an exam and an X-ray. Book a Dental checkup and the dentist will tell you if an implant is suitable."
+    }
+  ],
+  "branches": [
+    {
+      "id": "adyar",
+      "name": "Adyar",
+      "address": "Adyar, Chennai — add the street address before go-live",
+      "slots": {
+        "days": ["mon", "tue", "wed", "thu", "fri", "sat"],
+        "times": ["10:00", "11:00", "12:00", "16:00", "17:30", "19:00"]
+      }
+    },
+    {
+      "id": "anna-nagar",
+      "name": "Anna Nagar",
+      "address": "Anna Nagar, Chennai — add the street address before go-live",
+      "slots": {
+        "days": ["mon", "tue", "wed", "thu", "fri", "sat"],
+        "times": ["10:00", "11:30", "13:00", "15:00", "16:30"]
+      }
+    },
+    {
+      "id": "t-nagar",
+      "name": "T. Nagar",
+      "address": "T. Nagar, Chennai — add the street address before go-live",
+      "slots": {
+        "days": ["mon", "tue", "wed", "thu", "fri", "sat"],
+        "times": ["10:00", "11:00", "12:00", "16:00", "17:30", "19:00"]
+      }
+    }
+  ]
+}
